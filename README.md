@@ -1,2 +1,2 @@
-# Tinovation-Python-Code
-Some useful Python programs created in Tinovation
+# Tinovation Python Code
+Here are some useful Python programs created in Tinovation!
