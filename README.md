@@ -1,7 +1,7 @@
 # Template Detection
 ### This was the 2017-2018 project for the Python team in Tinovation.
 
-The 2017-2018 "Notes" project hoped to use a Raspberry Pi to record a teacher's whiteboard throughout lecture. During the lecture, the Pi would stream images to a database, which would (a) identify the space within which the teacher was writing, and then (b) identify what was written.
+The 2017-2018 "Notes" project hoped to use a Raspberry Pi to record a teacher's whiteboard throughout lecture. During the lecture, the Pi would stream images to a database. As the Python team, our objective was to use the streamed images to (a) identify the space within which the teacher was writing, and then (b) identify what was written.
 
 We successfully identified the space within which the teacher was writing; however, due to time constraints, we were ultimately unable to reach out second goal of text identification.
 
