@@ -14,5 +14,8 @@ The program would then create an image called "cropped.jpg" that contained only 
 This was successful in that it could find the area between the two colored symbols.
 
 Then we realized that to be more accurate, it would help to identify templates based off of their shape.
-Our second attempt was "template_ddetection2.py", which had input "template.jpg" and "screenshot.jpg".
-The code searches "screenshot.jpg" and finds matching templates based off of the sample "template.jpg". It then draws a box around the two templates that are the furthest apart, and then draws a bigger box around that.
+Our second attempt was "template_detection2.py", which had input "template.jpg" and "screenshot.jpg".
+The code searches source image "screenshot.jpg" and finds matching templates based off of the template image "template.jpg". It then draws a box around the two templates that are the furthest apart, and then draws a bigger box around that. (Again, this works on the logic that there would be a template at the bottom left and top right corners of the whiteboard.)
+
+Our Results:
+While we were unsuccessful in our text identification, we gained a lot of valuable knowledge working with image inputs, OpenCV, and numPy formatting in regards to image processing. Skills gained included manipulating images stored as numPy arrays, reading and writing files using OpenCV, mapping color threshholds to zip files of xy points on the CV2 plane, and analyzing the different template matching methods to maximize for accuracy in our specific project.
