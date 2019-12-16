@@ -5,7 +5,7 @@ The 2017-2018 "Notes" project hoped to use a Raspberry Pi to record a teacher's 
 
 We successfully identified the space within which the teacher was writing; however, due to time constraints, we were ultimately unable to reach out second goal of text identification.
 
-We knew that this tastk would involve computer vision. After several attempts of trial and error, we found the sample code "face_detect.py", with which we were able to detect faces in "messi.jpg," "abba2.jpg" and "abba2.png". With this small success being achieved across multiple OS in our team, we decided that the libraries used in "face_detect.py", namely, OpenCV and numPy, were optimal in achieving our goals.
+We knew that this task would involve computer vision. After several attempts of trial and error, we found the sample code "face_detect.py", with which we were able to detect faces in "messi.jpg," "abba2.jpg" and "abba2.png". With this small success being achieved across multiple OS in our team, we decided that the libraries used in "face_detect.py", namely, OpenCV and numPy, were optimal in achieving our goals.
 
 For our first attempt at identifying the text space, we tried identifying templates based off of color. To do this, we created "color_detection.py".
 The input image, "color_screenshot.jpg", would have a red template in the bottom left and top right corners of a whiteboard.
